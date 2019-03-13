@@ -9,7 +9,7 @@
 
 //Define Variables 
 double Input, Output;
-double Setpoint = 100;
+double Setpoint = 100; //Subject to change
 
 //Specify the links and initial tuning parameters
 PID myPID(&Input,  &Output, &Setpoint, 2, 5, 1, DIRECT);
